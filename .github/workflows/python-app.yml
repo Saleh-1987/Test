@@ -50,7 +50,7 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker build -t boofkoor13/github-test
+        docker docker build -t boofkoor13/github-test .
         
     - name: Push Docker Image
       run: |
